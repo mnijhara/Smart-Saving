@@ -1,0 +1,7 @@
+{
+  "name": "smartsaving.cards",
+  "description": "Maximize your credit card rewards for every purchase in India with smartsaving.cards.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
