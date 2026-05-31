@@ -11,7 +11,8 @@ export default defineConfig(({ mode }) => {
     base: './', // Ensures assets are linked correctly relative to index.html
     define: {
       // Polyfill process.env for the app logic during build time
-      'process.env.API_KEY': JSON.stringify(env.API_KEY),
+      'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY || env.API_KEY),
+      'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY || env.API_KEY),
       'process.env.NODE_ENV': JSON.stringify(mode),
     }
   }
