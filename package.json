@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "server.cjs",
   "engines": {
-    "node": "22.x"
+    "node": ">=18"
   },
   "dependencies": {
     "express": "^4.19.2"
