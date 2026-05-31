@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { CreditCard, ChatMessage as ChatMessageType, AdvisorResponse } from './types';
+import { useState, useEffect, useRef } from 'react';
+import { CreditCard, ChatMessage as ChatMessageType } from './types';
 import CardWallet from './components/CardWallet';
 import ChatMessage from './components/ChatMessage';
 import QuickActions from './components/QuickActions';
