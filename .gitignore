@@ -79,6 +79,3 @@ typings/
 # OS metadata
 .DS_Store
 Thumbs.db
-
-# Vite build output
-dist
